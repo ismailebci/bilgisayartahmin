@@ -79,6 +79,7 @@ Aşağıdaki özelliklere sahip bir bilgisayarın fiyat tahminleri yapılmışt�
 1. Gerekli kütüphaneleri yükleyin:
    ```bash
    pip install pandas numpy scikit-learn xgboost catboost
+   pip install -r requirements.txt
 2.Çalıştırmak için:
    fiyat_tahmin_modeli.py dosyasını çalıştırın:
 
