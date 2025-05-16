@@ -79,5 +79,36 @@ Aşağıdaki özelliklere sahip bir bilgisayarın fiyat tahminleri yapılmışt�
 1. Gerekli kütüphaneleri yükleyin:
    ```bash
    pip install pandas numpy scikit-learn xgboost catboost
-   
+2.Çalıştırmak için:
    fiyat_tahmin_modeli.py dosyasını çalıştırın:
+
+3. Koddaki bu kısmı ne isterseniz yazın
+# Yeni bilgisayarın özelliklerini tanımlayın
+    'Marka': ['HP'],  # Örnek marka
+    'İşlemci Tipi': ['Intel Core i5'],  # Örnek işlemci
+    'SSD Kapasitesi': ['512 GB'],  # 3 TB SSD
+    'Ram (Sistem Belleği)': ['8 GB'],  # 64 GB RAM
+    'Ekran Kartı': ['NVIDIA GeForce RTX 3050'],  # Örnek ekran kartı
+    'Kapasite': ['512 GB'],  # 3 TB depolama
+    'İşletim Sistemi': ['Windows'],  # Örnek işletim sistemi
+    'Ekran Kartı Bellek Tipi': ['GDDR5'],  # Örnek bellek tipi
+    'Ekran Kartı Tipi': ['Dedicated'],  # Örnek ekran kartı tipi
+    'Garanti Tipi': ['Resmi Garanti'],  # Örnek garanti tipi
+    'Ram (Sistem Belleği) Tipi': ['DDR4'],  # Örnek RAM tipi
+    'İşlemci Çekirdek Sayısı': ['16'],  # 16 çekirdek
+    'İşlemci Nesli': ['11. Nesil'],  # Örnek işlemci nesli
+    'İşlemci Modeli': ['i5-11500H'],  # Örnek işlemci modeli
+    'Çözünürlük': ['1920x1080'],  # 4K çözünürlük
+    'Power Supply': ['800W'],  # 800W güç kaynağı
+    'Kullanım Amacı': ['Oyun ve İş'],  # Örnek kullanım amacı
+    'Ekran Kartı Hafızası': ['4 GB'],  # 24 GB ekran kartı hafızası
+    'Temel İşlemci Hızı (GHz)': ['3.5 GHz'],  # 3.5 GHz temel hız
+    'Bağlantılar': ['Wi-Fi 6, Bluetooth 5.2'],  # Örnek bağlantılar
+    'Cihaz Ağırlığı': ['2.5 kg'],  # 2.5 kg ağırlık
+    'Ekran Boyutu': ['16 inç'],  # 16 inç ekran
+    'İşlemci Frekansı': ['3.2 GHz'],  # 5.8 GHz maksimum frekans
+    'Ekran Yenileme Hızı': ['144 Hz'],  # 120 Hz yenileme hızı
+    'Panel Tipi': ['IPS'],  # IPS panel
+    'Menşei': ['ABD'],  # Örnek menşei
+    'Arttırılabilir Azami Bellek': ['128 GB']  # 128 GB'a kadar bellek
+sonra çalıştırıp sonuca bakın :D
