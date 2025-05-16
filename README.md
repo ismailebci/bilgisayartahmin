@@ -113,3 +113,7 @@ Aşağıdaki özelliklere sahip bir bilgisayarın fiyat tahminleri yapılmışt�
     'Menşei': ['ABD'],  # Örnek menşei
     'Arttırılabilir Azami Bellek': ['128 GB']  # 128 GB'a kadar bellek
 sonra çalıştırıp sonuca bakın :D
+## 📄 Lisans
+
+Bu proje [MIT](LICENSE) lisansı ile lisanslanmıştır.
+
