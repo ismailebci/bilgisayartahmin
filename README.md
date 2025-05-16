@@ -37,12 +37,11 @@ Grid Search kullanılarak her model için hiperparametre optimizasyonu yapılmı
 
 | Model              | R² Skoru | MAE (Ortalama Mutlak Hata) |
 |--------------------|----------|-----------------------------|
-| XGBoost            | 0.XXXX   | XXXX TL                     |
-| Random Forest      | 0.XXXX   | XXXX TL                     |
-| Gradient Boosting  | 0.XXXX   | XXXX TL                     |
-| CatBoost           | 0.XXXX   | XXXX TL                     |
-
-> Not: Yukarıdaki değerler, `GridSearchCV` ile optimize edilen modellerin test verileri üzerindeki performans sonuçlarıdır.
+| XGBoost            | 0.8556   | 2404.06 TL                  |
+| Random Forest      | 0.7708   | 2971.69 TL                  |
+| Gradient Boosting  | 0.8540   | 2647.94 TL                  |
+| CatBoost           | 0.8771   | 2269.07 TL                  |
+> CatBoost modeli en yüksek R² skoruna ve en düşük MAE değerine sahiptir.
 
 ## 🤖 Yeni Bilgisayar Fiyat Tahmini
 
@@ -55,16 +54,17 @@ Aşağıdaki özelliklere sahip bir bilgisayarın fiyat tahminleri yapılmışt�
 - **Ekran**: 16" IPS, 1920x1080, 144 Hz
 - **Diğer**: Windows, Wi-Fi 6, Bluetooth 5.2, 800W PSU
 
-### 🔮 Tahmin Sonuçları:
+### 📈 Tahmin Sonuçları
 
-| Model              | Tahmini Fiyat |
-|--------------------|----------------|
-| XGBoost            | XXXX TL         |
-| Random Forest      | XXXX TL         |
-| Gradient Boosting  | XXXX TL         |
-| CatBoost           | XXXX TL         |
-| **Ensemble (Ağırlıklı Ortalama)** | **XXXX TL** |
+| Model              | Tahmini Fiyat (TL) |
+|--------------------|--------------------|
+| XGBoost            | 27,686.59 TL       |
+| Random Forest      | 49,822.92 TL       |
+| Gradient Boosting  | 24,774.24 TL       |
+| CatBoost           | 28,012.08 TL       |
+| **Ensemble (Ağırlıklı Ortalama)** | **32,112.61 TL** |
 
+> Ensemble tahmini, her modelin R² skoruna göre ağırlıklı ortalama alınarak hesaplanmıştır.
 > Ağırlıklı ortalama tahmini, modellerin `R²` skorlarına göre hesaplanmıştır.
 
 ## 📦 Proje Dosyaları
